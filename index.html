@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liberty Threads | Premium USA Clothing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            blue: '#0A3161',
+                            red: '#B31942',
+                            light: '#F8F9FA'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-light font-sans text-gray-800 antialiased">
+
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#" class="text-2xl font-bold text-brand-blue tracking-tighter">
+                        LIBERTY<span class="text-brand-red">THREADS</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#home" class="text-gray-600 hover:text-brand-red transition duration-300">Home</a>
+                    <a href="#shop" class="text-gray-600 hover:text-brand-red transition duration-300">Shop</a>
+                    <a href="#about" class="text-gray-600 hover:text-brand-red transition duration-300">About Us</a>
+                    <a href="#contact" class="text-gray-600 hover:text-brand-red transition duration-300">Contact</a>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="#" class="text-gray-600 hover:text-brand-blue transition">
+                        <i class="fa-regular fa-user text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-600 hover:text-brand-blue transition relative">
+                        <i class="fa-solid fa-cart-shopping text-xl"></i>
+                        <span class="absolute -top-2 -right-2 bg-brand-red text-white text-xs font-bold rounded-full h-4 w-4 flex items-center justify-center">3</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="relative bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto">
+            <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32 pt-10 sm:pt-16 lg:pt-20 px-4 sm:px-6 lg:px-8">
+                <main class="mx-auto max-w-7xl">
+                    <div class="sm:text-center lg:text-left">
+                        <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                            <span class="block xl:inline">American style,</span>
+                            <span class="block text-brand-blue">crafted for everyday.</span>
+                        </h1>
+                        <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                            Discover our new Fall/Winter collection. High-quality, durable clothing designed in the heart of the USA. Free shipping coast to coast on orders over $50.
+                        </p>
+                        <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                            <div class="rounded-md shadow">
+                                <a href="#shop" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-brand-blue hover:bg-blue-800 md:py-4 md:text-lg transition duration-300">
+                                    Shop Collection
+                                </a>
+                            </div>
+                            <div class="mt-3 sm:mt-0 sm:ml-3">
+                                <a href="#about" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-brand-blue bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg transition duration-300">
+                                    Our Story
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+            <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Clothing rack with assorted apparel">
+        </div>
+    </section>
+
+    <section class="bg-brand-blue py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div class="text-white">
+                    <i class="fa-solid fa-truck-fast text-3xl mb-4 text-brand-red"></i>
+                    <h3 class="text-lg font-bold">Fast USA Shipping</h3>
+                    <p class="text-blue-200 mt-2 text-sm">2-3 day delivery across all 50 states.</p>
+                </div>
+                <div class="text-white">
+                    <i class="fa-solid fa-rotate-left text-3xl mb-4 text-brand-red"></i>
+                    <h3 class="text-lg font-bold">Easy 30-Day Returns</h3>
+                    <p class="text-blue-200 mt-2 text-sm">Not quite right? Send it back hassle-free.</p>
+                </div>
+                <div class="text-white">
+                    <i class="fa-solid fa-shield-halved text-3xl mb-4 text-brand-red"></i>
+                    <h3 class="text-lg font-bold">Secure Checkout</h3>
+                    <p class="text-blue-200 mt-2 text-sm">Your payment information is 100% safe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="shop" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 text-center mb-10">Trending Now</h2>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-10 gap-x-6 xl:gap-x-8">
+                
+                <div class="group relative">
+                    <div class="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none transition duration-300">
+                        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Classic White Tee" class="w-full h-full object-center object-cover lg:w-full lg:h-full">
+                    </div>
+                    <div class="mt-4 flex justify-between">
+                        <div>
+                            <h3 class="text-sm text-gray-700">
+                                <a href="#">
+                                    <span aria-hidden="true" class="absolute inset-0"></span>
+                                    Classic White Tee
+                                </a>
+                            </h3>
+                            <p class="mt-1 text-sm text-gray-500">100% Organic Cotton</p>
+                        </div>
+                        <p class="text-sm font-medium text-gray-900">$28.00</p>
+                    </div>
+                </div>
+
+                <div class="group relative">
+                    <div class="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none transition duration-300">
+                        <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Vintage Denim Jacket" class="w-full h-full object-center object-cover lg:w-full lg:h-full">
+                    </div>
+                    <div class="mt-4 flex justify-between">
+                        <div>
+                            <h3 class="text-sm text-gray-700">
+                                <a href="#">
+                                    <span aria-hidden="true" class="absolute inset-0"></span>
+                                    Vintage Denim Jacket
+                                </a>
+                            </h3>
+                            <p class="mt-1 text-sm text-gray-500">Light Wash</p>
+                        </div>
+                        <p class="text-sm font-medium text-gray-900">$85.00</p>
+                    </div>
+                </div>
+
+                <div class="group relative">
+                    <div class="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none transition duration-300">
+                        <img src="https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Everyday Pullover Hoodie" class="w-full h-full object-center object-cover lg:w-full lg:h-full">
+                    </div>
+                    <div class="mt-4 flex justify-between">
+                        <div>
+                            <h3 class="text-sm text-gray-700">
+                                <a href="#">
+                                    <span aria-hidden="true" class="absolute inset-0"></span>
+                                    Everyday Pullover
+                                </a>
+                            </h3>
+                            <p class="mt-1 text-sm text-gray-500">Heather Grey</p>
+                        </div>
+                        <p class="text-sm font-medium text-gray-900">$55.00</p>
+                    </div>
+                </div>
+
+                <div class="group relative">
+                    <div class="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none transition duration-300">
+                        <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Straight Leg Chinos" class="w-full h-full object-center object-cover lg:w-full lg:h-full">
+                    </div>
+                    <div class="mt-4 flex justify-between">
+                        <div>
+                            <h3 class="text-sm text-gray-700">
+                                <a href="#">
+                                    <span aria-hidden="true" class="absolute inset-0"></span>
+                                    Straight Leg Chinos
+                                </a>
+                            </h3>
+                            <p class="mt-1 text-sm text-gray-500">Olive Green</p>
+                        </div>
+                        <p class="text-sm font-medium text-gray-900">$62.00</p>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="mt-10 text-center">
+                <a href="#" class="inline-block bg-white border-2 border-brand-blue text-brand-blue font-semibold py-3 px-8 rounded hover:bg-brand-blue hover:text-white transition duration-300">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-gray-100 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-brand-blue rounded-2xl shadow-xl overflow-hidden">
+                <div class="px-6 py-12 sm:px-12 sm:py-16 lg:flex lg:items-center lg:p-20">
+                    <div class="lg:w-0 lg:flex-1">
+                        <h2 class="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+                            Join the Liberty Club
+                        </h2>
+                        <p class="mt-4 max-w-3xl text-lg text-blue-100">
+                            Sign up for our newsletter to get 15% off your first order, plus early access to new USA-made drops and exclusive sales.
+                        </p>
+                    </div>
+                    <div class="mt-12 sm:w-full sm:max-w-md lg:mt-0 lg:ml-8 lg:flex-1">
+                        <form class="sm:flex">
+                            <label for="email-address" class="sr-only">Email address</label>
+                            <input id="email-address" name="email-address" type="email" autocomplete="email" required class="w-full border-white px-5 py-3 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-brand-blue focus:ring-white rounded-md" placeholder="Enter your email">
+                            <button type="submit" class="mt-3 w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-brand-red hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-brand-blue focus:ring-brand-red sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0 transition duration-300">
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-white border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="col-span-1 md:col-span-1">
+                    <span class="text-xl font-bold text-brand-blue tracking-tighter">
+                        LIBERTY<span class="text-brand-red">THREADS</span>
+                    </span>
+                    <p class="mt-4 text-sm text-gray-500">
+                        Quality apparel designed for the modern American lifestyle. Proudly headquartered in Austin, Texas.
+                    </p>
+                    <div class="flex space-x-4 mt-6">
+                        <a href="#" class="text-gray-400 hover:text-brand-blue"><i class="fa-brands fa-facebook text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-brand-blue"><i class="fa-brands fa-instagram text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-brand-blue"><i class="fa-brands fa-twitter text-xl"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-900 tracking-wider uppercase mb-4">Shop</h3>
+                    <ul class="space-y-3 text-sm text-gray-500">
+                        <li><a href="#" class="hover:text-brand-red transition">Men's</a></li>
+                        <li><a href="#" class="hover:text-brand-red transition">Women's</a></li>
+                        <li><a href="#" class="hover:text-brand-red transition">Accessories</a></li>
+                        <li><a href="#" class="hover:text-brand-red transition">New Arrivals</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-900 tracking-wider uppercase mb-4">Support</h3>
+                    <ul class="space-y-3 text-sm text-gray-500">
+                        <li><a href="#" class="hover:text-brand-red transition">Contact Us</a></li>
+                        <li><a href="#" class="hover:text-brand-red transition">Shipping & Returns</a></li>
+                        <li><a href="#" class="hover:text-brand-red transition">Size Guide</a></li>
+                        <li><a href="#" class="hover:text-brand-red transition">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-sm font-semibold text-gray-900 tracking-wider uppercase mb-4">Legal</h3>
+                    <ul class="space-y-3 text-sm text-gray-500">
+                        <li><a href="#" class="hover:text-brand-red transition">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-brand-red transition">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="mt-12 border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-sm text-gray-400">
+                    &copy; 2026 Liberty Threads LLC. All rights reserved.
+                </p>
+                <div class="mt-4 md:mt-0 flex space-x-2">
+                    <div class="h-8 w-12 bg-gray-200 rounded flex items-center justify-center text-xs text-gray-500 font-bold">VISA</div>
+                    <div class="h-8 w-12 bg-gray-200 rounded flex items-center justify-center text-xs text-gray-500 font-bold">MC</div>
+                    <div class="h-8 w-12 bg-gray-200 rounded flex items-center justify-center text-xs text-gray-500 font-bold">AMEX</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
